@@ -1,0 +1,146 @@
+:root{
+    /* color */
+    /* 배경색 */
+    --color-bg-header:#161616;
+    --color-bg:#ececec;
+    --color-bg-dark:#181613;
+    --color-bg-footer:#3A3A3A;
+    --color-bg-1:#e4e4e4;
+    /* 문자색 */
+    --color-text-light-3:#f1f1f1;
+    --color-text-light-2:#f2f3f4;
+    --color-text-light-1:#E2E2E2;
+    --color-text-light:#c1c1c1;
+    --color-text:#575757;
+    --color-text-dark:#000000;
+    --color-text-invert:#ffffff;
+    /* 메인색상 */
+    --color-fg-light-1:#D48700;
+    --color-fg-light:#944813;
+    --color-fg:#5E2808;
+    --color-fg-secondary:#334DCF;
+
+    /* Font size */
+    --font-large:48px;
+    --font-medium:28px;
+    --font-regular:18px;
+    --font-small:16px;
+    --font-micro:14px;
+
+    /* Font weight */
+    --weight-bold:700;
+    --weight-semi-bold:600;
+    --weight-regular:400;
+
+    
+    /* Size */
+    --size-border-radius: 4px;
+}
+
+/* Typography */
+h1 {
+    font-size: var(--font-large);
+    font-weight: var(--weight-bold);
+    color: var(--color-black);
+    margin: 16px 0px;
+  }
+  
+  h2 {
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+    color: var(--color-black);
+    margin: 8px 0;
+  }
+  
+  h3 {
+    font-size: var(--font-regular);
+    font-weight: var(--font-regular);
+    color: var(--color-black);
+    margin: 8px 0;
+  }
+  
+  p {
+    font-size: var(--font-regular);
+    font-weight: var(--font-regular);
+    color: var(--color-black);
+    margin: 4px 0;
+  }
+
+*{ 
+    box-sizing : border-box;
+
+}
+
+body{
+    margin: 0;
+    cursor: default;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text-light-3);
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    display: block;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-bg-header);
+    color:var(--color-text-light-1);
+    height: 50px;
+    align-items: center;
+    padding: 16px;
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+}
+
+.narbar__menu{
+    cursor: pointer;
+}
+
+
+#home{
+    background-image: url('/imgs/home.jpg') ;
+    background-size:100% 100%;
+    background-position:100%;
+
+    
+}
+
+#menu__home{
+    text-align: center;
+    padding-top: 35%;
+}
+
+.home__paragraph{
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+    margin: 0;
+}
+
+#menu__home{
+    color: var(--color-text-light-1);
+}
+.home__sentence{
+    margin: auto;
+}
+
+#menu__fruit h1{
+    margin: 0px;
+}
+
+#menu{
+    background-image: url('/imgs/backGround.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: var(--color-text-light-2);
+}
+
+#menu__fruit{
+    margin-left: 20px;
+}
